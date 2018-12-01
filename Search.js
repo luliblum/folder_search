@@ -62,7 +62,7 @@ findRecursive(path, ext, text, function (err, itemsFilterd) {
 
 	}
 	else {
-		console.log("No file was found ('" + path + "' with extention: '" + ext + "' and substring: '" + text + "')");
+		console.log("No file was found ('" + path + "' with extension: '" + ext + "' and substring: '" + text + "')");
 	}
 });
 
